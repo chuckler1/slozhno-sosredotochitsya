@@ -198,7 +198,7 @@ section:not(:first-of-type) {
 
 @media (width > 425px) {
   .page {
-    --padding-sections: 20px; 
+    --padding-sections: 20px;
   }
 
   .header__theme-menu {
