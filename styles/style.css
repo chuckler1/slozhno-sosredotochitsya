@@ -162,7 +162,7 @@ section:not(:first-of-type) {
 
 .link-decor {
   display: inline-block;
-  height: 1em;
+  block-size: 1em;
   line-height: 0.8;
   text-decoration: none;
   text-shadow: 2px 2px var(--accent-color);
