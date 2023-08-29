@@ -29,16 +29,22 @@
 }
 
 .theme_light .decorated-zone {
-  color: var(--main-color)
+  color: var(--main-color);
 }
 
 @media (width > 425px) {
   .page.theme_light {
-    --padding-sections: 20px; 
+    --padding-sections: 20px;
   }
 }
 
 @media (prefers-color-scheme: light) {
+  
+  @media (width > 425px) {
+    .page.theme_auto {
+      --padding-sections: 20px;
+    }
+  }
   :root {
     --main-color: #353430;
     --main-title-color: #FFC2E6;
@@ -60,13 +66,7 @@
   }
   
   .theme_auto .decorated-zone {
-    color: var(--main-color)
-  }
-  
-  @media (width > 425px) {
-    .page.theme_auto {
-      --padding-sections: 20px; 
-    }
+    color: var(--main-color);
   }
 }
 
