@@ -2,7 +2,6 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  padding-inline: var(--padding-sections);
   color: var(--main-color);
   font-family: var(--main-font), sans-serif;
   font-size: var(--main-font-size);
@@ -13,6 +12,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.page-wrapper {
+  padding-inline: var(--padding-sections);
 }
 
 .header {
