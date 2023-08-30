@@ -216,7 +216,7 @@ section:not(:first-of-type) {
 
   .header__wrapper-paragraph {
     justify-self: end;
-    width: 50%;
+    inline-size: 50%;
     margin-block-start: 7.7%;
   }
 
