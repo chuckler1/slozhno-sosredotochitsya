@@ -24,7 +24,7 @@
   --padding-sections: 10px;
 }
 
-@media (width > 425px) {
+@media (width > 576px) {
   .page.theme_dark {
     --padding-sections: 20px;
   }

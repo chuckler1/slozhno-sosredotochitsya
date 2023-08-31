@@ -42,11 +42,15 @@
   .page.theme_light .page-wrapper .header .main-title {
     text-shadow: 4px 4px 0 #FF8DCB;
   }
+
+  .page.theme_light .page-wrapper .footer .main-title {
+    text-shadow: 4px 4px 0 #FF8DCB;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   
-  @media (width > 425px) {
+  @media (width > 576px) {
     .page.theme_auto {
       --padding-sections: 20px;
     }
@@ -54,7 +58,7 @@
   :root {
     --main-color: #353430;
     --main-title-color: #FFC2E6;
-    --accent-color: #FF9DCB;
+    --accent-color: #FF8DCB;
     --subtitle-color: #353430;
     --secondary-color: #353430;
     --bg-color: #FFF1F7;
@@ -73,6 +77,16 @@
   
   .theme_auto .decorated-zone {
     color: var(--main-color);
+  }
+
+  @media (width <= 768px) {
+    .page.theme_auto .page-wrapper .header .main-title {
+      text-shadow: 4px 4px 0 #FF8DCB;
+    }
+
+    .page.theme_auto .page-wrapper .footer .main-title {
+      text-shadow: 4px 4px 0 #FF8DCB;
+    }
   }
 }
 
